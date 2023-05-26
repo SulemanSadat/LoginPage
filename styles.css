@@ -1,0 +1,88 @@
+body{
+
+    scroll-behavior: smooth;
+}
+form.login{
+    background-color: #517fff;
+    width:320px;
+    height:420px;
+ 
+    border-radius:5px ;
+    margin: 160px 570px ;
+    box-shadow: 0px 0px 20px rgba(167, 167, 167, 0.599);
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    padding:20px;
+    user-select: none;
+}
+
+input.s{
+    border: white;
+    height: 40px;
+    width:250px;
+    font-size: medium;
+    color: rgb(74, 74, 74);
+    border-radius: 5px;
+    text-indent: 10px   ;
+    transition: 0.5s ease;
+   
+}
+input.s:hover{
+
+    height: 50px;
+    width: 260px;
+    border-radius: 5px;
+    background-color:white;
+    
+}
+label.s{
+    position: absolute;
+    margin-top: -25px;
+    font-size:20px;
+    color: white;
+    text-indent: 10px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.Signin{
+    background-color: #464646;
+    font-size: 15px;
+    border-radius: 100px;
+    width: 120px;
+    height:40px;
+    text-decoration:none ;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Signin:hover{
+    background-color: #000000;
+ 
+}
+h5{
+    color:rgb(243, 243, 243);
+    
+}
+a.Register{
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+a.Register:hover{
+    color:white;
+    font-size: 15px;
+}
+h1{
+    color: #ffffff;
+}
+h2.check{
+    
+    font-size:medium ;
+    color:white;
+}
+label{
+    color: #FFF;
+}
